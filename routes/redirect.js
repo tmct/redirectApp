@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* Redirect back to index, with query string parameter. */
 router.get('/', function(req, res, next) {
-  res.redirect('index?token=exampleToken');
+  res.redirect('intermediate');
 });
 
 module.exports = router;
